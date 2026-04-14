@@ -2,7 +2,7 @@
   {
     "name": "John Voight",
     "role": "Professor",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.jpg",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://jvoight.github.io",
     "bio": "Expert in algebra and number theory.",
     "expertise": ["Algebra", "Number Theory"]
@@ -10,7 +10,7 @@
   {
     "name": "Allan Steel",
     "role": "Researcher",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.jpg",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://magma.maths.usyd.edu.au/~allan/",
     "bio": "Core developer of Magma and computational algebra expert.",
     "expertise": ["Magma", "Algorithms"]
@@ -18,7 +18,7 @@
   {
     "name": "Nicole Sutherland",
     "role": "PhD Student",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.jpg",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
     "bio": "Researching topology and geometric structures.",
     "expertise": ["Topology", "Geometry"]
