@@ -17,10 +17,19 @@
   },
   {
     "name": "Nicole Sutherland",
-    "role": "PhD Student",
+    "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
     "bio": "Researching topology and geometric structures.",
     "expertise": ["Topology", "Geometry"]
+  },
+  {
+    "name": "Rhys J. Evans",
+    "role": "Magma Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "Researching algebraic graph theory",
+    "expertise": ["Combinatorics","Group theory"]
   }
+
 ]
