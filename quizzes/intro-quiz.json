@@ -1,0 +1,25 @@
+{
+  "title": "Intro Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is Magma?",
+      "options": ["A tool", "A language", "A database"],
+      "answer": 0
+    },
+    {
+      "id": "q2",
+      "type": "integer",
+      "question": "How many main components does Magma have?",
+      "answer": 3
+    },
+    {
+      "id": "q3",
+      "type": "string",
+      "question": "Type the keyword used to initialize Magma",
+      "answer": "start",
+      "caseSensitive": false
+    }
+  ]
+}
