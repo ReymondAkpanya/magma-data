@@ -6,20 +6,23 @@
       "type": "multiple_choice",
       "question": "What is Magma?",
       "options": ["A tool", "A language", "A database"],
-      "answer": 0
+      "answer": 0,
+      "explanation": "It is a tool because bla"
     },
     {
       "id": "q2",
       "type": "integer",
       "question": "How many main components does Magma have?",
-      "answer": 3
+      "answer": 3,
+      "explanation": "It is lava."
     },
     {
       "id": "q3",
       "type": "string",
       "question": "Type the keyword used to initialize Magma",
       "answer": "start",
-      "caseSensitive": false
+      "caseSensitive": false,
+      "explanation": "You start Magma by typing start into your terminal."
     }
   ]
 }
