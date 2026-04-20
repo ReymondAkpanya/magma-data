@@ -1,28 +1,94 @@
+	
 {
-  "title": "Intro Quiz",
   "questions": [
     {
       "id": "q1",
       "type": "multiple_choice",
-      "question": "What is Magma?",
-      "options": ["A tool", "A language", "A database"],
-      "answer": 0,
-      "explanation": "It is a tool because bla"
+      "question": "Which Magma command is used to define a permutation group?",
+      "options": [
+        "Group()",
+        "PermutationGroup()",
+        "Symmetric()",
+        "SetGroup()"
+      ],
+      "answer": 1,
+      "explanation": "PermutationGroup() is used to construct permutation groups in Magma."
     },
     {
       "id": "q2",
-      "type": "integer",
-      "question": "How many main components does Magma have?",
-      "answer": 3,
-      "explanation": "It is lava."
+      "type": "multiple_choice",
+      "question": "What is the identity element in a group?",
+      "options": [
+        "An element that deletes others",
+        "An element that leaves others unchanged under the operation",
+        "The largest element",
+        "A random element"
+      ],
+      "answer": 1,
+      "explanation": "The identity element e satisfies e * g = g * e = g."
     },
     {
       "id": "q3",
-      "type": "string",
-      "question": "Type the keyword used to initialize Magma",
-      "answer": "start",
-      "caseSensitive": false,
-      "explanation": "You start Magma by typing start into your terminal."
+      "type": "multiple_choice",
+      "question": "Which structure has two operations, addition and multiplication?",
+      "options": [
+        "Group",
+        "Ring",
+        "Field only",
+        "Vector space only"
+      ],
+      "answer": 1,
+      "explanation": "A ring has both addition and multiplication."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What is the order of a group element?",
+      "options": [
+        "The number of elements in the group",
+        "The smallest positive integer n such that g^n = e",
+        "The position of the element in a list",
+        "The inverse of the element"
+      ],
+      "answer": 1,
+      "explanation": "Order(g) is the smallest n with g^n = identity."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What property must a binary operation in a group satisfy?",
+      "options": [
+        "Commutativity",
+        "Associativity",
+        "Linearity"
+      ],
+      "answer": 1,
+      "explanation": "A group operation must be associative, but not necessarily commutative."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which Magma command is used to compute the order of a group element?",
+      "options": [
+        "Size()",
+        "Order()",
+        "Length()",
+        "Cardinality()"
+      ],
+      "answer": 1,
+      "explanation": "Order(g) returns the order of an element g of a group G in Magma."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Which of the following is always true for a group?",
+      "options": [
+        "Every element has an inverse",
+        "Every element is commutative",
+        "The group is finite"
+      ],
+      "answer": 0,
+      "explanation": "Every element in a group must have an inverse."
     }
   ]
 }
