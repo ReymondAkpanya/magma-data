@@ -112,14 +112,6 @@
     "expertise": ["TODO"]
   },
   {
-    "name": "Reymond Akpanya",
-    "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["Combinatorics","Group theory"]
-  },
-  {
     "name": "Mark Watkins",
     "role": "Honorary Research Associate",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
