@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Introduction",
+      "subtitle": "Start your journey",
+      "tutorial": "intro.md",
+      "quiz": "intro-quiz.json",
+      "section": "general",
+    },
+    {
+      "title": "Magma Basics",
+      "subtitle": "Core concepts",
+      "tutorial": "basics.md",
+      "quiz": "basics-quiz.json",
+      "section": "general",
+    },
+    {
+      "title": "Abstract and computational algebra",
+      "subtitle": "TODO",
+      "tutorial": "abstract.md",   
+      "quiz": "abstract-quiz.json",
+      "section": "lecture",
+    },
+]
