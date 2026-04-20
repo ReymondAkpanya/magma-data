@@ -1,35 +1,140 @@
 [
   {
+    "name": "John Cannon",
+    "role": "Professor",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
     "name": "John Voight",
     "role": "Professor",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://jvoight.github.io",
     "bio": "Expert in algebra and number theory.",
-    "expertise": ["Algebra", "Number Theory"]
+    "expertise": ["Quadratic Forms","Algebras", "Modular Arithmetic Geometry"]
   },
   {
     "name": "Allan Steel",
-    "role": "Researcher",
+    "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://magma.maths.usyd.edu.au/~allan/",
     "bio": "Core developer of Magma and computational algebra expert.",
-    "expertise": ["Magma", "Algorithms"]
+    "expertise": ["Lattices", "Modules", "Representation Theory"]
+  },
+  {
+    "name": "Stephan Elsenhans",
+    "role": "Senior Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Don Taylor",
+    "role": "Senior Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Bill Unger",
+    "role": "Senior Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
   },
   {
     "name": "Nicole Sutherland",
-    "role": "Research Fellow",
+    "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "Researching topology and geometric structures.",
-    "expertise": ["Topology", "Geometry"]
+    "website": "https://www.maths.usyd.edu.au/ut/people?who=NJ_Sutherland",
+    "bio": "TODO",
+    "expertise": ["TODO"]
   },
   {
     "name": "Rhys J. Evans",
-    "role": "Magma Research Fellow",
+    "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
-    "bio": "Researching algebraic graph theory",
+    "bio": "TODO",
     "expertise": ["Combinatorics","Group theory"]
+  },
+  {
+    "name": "Reymond Akpanya",
+    "role": "Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["Combinatorics","Group theory"]
+  },
+  {
+    "name": "Eran Assaf",
+    "role": "Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Geoff Bailey",
+    "role": "Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Edgar Costa",
+    "role": "Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Claus Fieker",
+    "role": "Honorary Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+  {
+    "name": "Volker Gebhardt",
+    "role": "Honorary Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  },
+
+  {
+    "name": "Reymond Akpanya",
+    "role": "Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["Combinatorics","Group theory"]
+  },
+  {
+    "name": "Mark Watkins",
+    "role": "Honorary Research Fellow",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
+  }
+  {
+    "name": "Priscilla Yuen",
+    "role": "Research Administration",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://example.com",
+    "bio": "TODO",
+    "expertise": ["TODO"]
   }
 
 ]
