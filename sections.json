@@ -18,6 +18,6 @@
       "subtitle": "TODO",
       "tutorial": "abstract.md",   
       "quiz": "abstract-quiz.json",
-      "section": "lecture",
+      "section": "lecture"
     }
 ]
