@@ -111,7 +111,6 @@
     "bio": "TODO",
     "expertise": ["TODO"]
   },
-
   {
     "name": "Reymond Akpanya",
     "role": "Research Fellow",
@@ -127,7 +126,7 @@
     "website": "https://example.com",
     "bio": "TODO",
     "expertise": ["TODO"]
-  }
+  },
   {
     "name": "Priscilla Yuen",
     "role": "Research Administration",
@@ -136,5 +135,4 @@
     "bio": "TODO",
     "expertise": ["TODO"]
   }
-
 ]
