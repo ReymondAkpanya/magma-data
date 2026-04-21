@@ -4,15 +4,15 @@
     "role": "Professor",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "bio": "Professor in the School of Mathematics and Statistics at the University of Sydney.",
+    "expertise": ["Algebra", "Finite Groups"]
   },
   {
     "name": "John Voight",
     "role": "Professor",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://jvoight.github.io",
-    "bio": "Expert in algebra and number theory.",
+    "bio": "Research Interests:\n\n Arithmetic algebraic geometry: modular curves, Shimura varieties, moduli spaces, elliptic curves, modular and automorphic forms, zeta functions of varieties over finite fields, computational and algorithmic aspects\n Number theory: algebraic number theory, quaternion algebras, quadratic forms, finite-dimensional algebras, elementary number theory, cryptography, coding theory",
     "expertise": ["Quadratic Forms","Algebras", "Modular Arithmetic Geometry"]
   },
   {
@@ -20,102 +20,102 @@
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://magma.maths.usyd.edu.au/~allan/",
-    "bio": "Core developer of Magma and computational algebra expert.",
+    "bio": "I am a developer of the Magma Computer Algebra System.",
     "expertise": ["Lattices", "Modules", "Representation Theory"]
   },
   {
     "name": "Stephan Elsenhans",
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "website": "https://profiles.sydney.edu.au/andreas-stephan.elsenhans",
+    "bio": "I am a Professor for Computer Algebra at the University of Würzburg (Germany) and a member of the computational algebra group at the University of Sydney.",
+    "expertise": ["Quadratic Forms", "Global Fields", "Modules"]
   },
   {
     "name": "Don Taylor",
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "website": "https://www.maths.usyd.edu.au/u/don/",
+    "bio": "I am a member of the Algebra Research Group. Research interests include computations with groups, combinatorics and representation theory, particularly permutation groups and associated 'geometric' structures.",
+    "expertise": ["Finite Groups", "Lie Theory"]
   },
   {
     "name": "Bill Unger",
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "bio": "I am a member of the Computational Algebra Research Group. My research interests include algorithms for (finite) group computations, particularly in permutations groups. I am interested in using such algorithms to help out research in other areas of mathematics. These interests extend to algorithms in Representation Theory and Combinatorics.",
+    "expertise": ["Finte Groups", "Finitely presented groups"]
   },
   {
     "name": "Nicole Sutherland",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://www.maths.usyd.edu.au/ut/people?who=NJ_Sutherland",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "bio": "Computing in Mathematics, Natural Science, Engineering and Medicine Number Theory",
+    "expertise": ["Global Fields", "Local Fields"]
   },
   {
     "name": "Rhys J. Evans",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["Combinatorics","Group theory"]
+    "website": "https://rhysje00.github.io",
+    "bio": "G’day! I am a Magma research fellow working in the Computational algebra group at the University of Sydney, School of Mathematics and Statistics. My research interests include algebraic graph theory, combinatorics, finite geometry, and related computational aspects.",
+    "expertise": ["Combinatorics","Finite Groups"]
   },
   {
     "name": "Reymond Akpanya",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["Combinatorics","Group theory"]
+    "website": "https://reymondakpanya.github.io",
+    "bio": "I am a Postdoctoral Research Associate in the School of Mathematics and Statistics at the University of Sydney, working with Prof. John Voight. Previously I completed my PhD at RWTH Aachen University under the supervision of Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.",
+    "expertise": ["Combinatorics","Topology", "Finite Groups"]
   },
   {
     "name": "Eran Assaf",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "website": "https://math.mit.edu/~eranasaf/",
+    "bio": "At the moment, I am a Research Scientist at MIT, and a Magma developer.",
+    "expertise": ["Lattices", "Quadratic Forms"]
   },
   {
     "name": "Geoff Bailey",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "website": "https://profiles.sydney.edu.au/geoff.bailey/about",
+    "bio": "Member of the Computational Algebra Research Group.",
+    "expertise": ["Magma Language"]
   },
   {
     "name": "Edgar Costa",
     "role": "Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
-    "bio": "TODO",
-    "expertise": ["TODO"]
+    "website": "https://edgarcosta.org",
+    "bio": "I am a Research Scientist in the Mathematics Department at the Massachusetts Institute of Technology.\n My research focuses on arithmetic geometry, arithmetic statistics, and number theory, with an emphasis on developing effective computational methods.",
+    "expertise": ["Arithmetic Geometry","Modular Arithmetic Geometry"]
   },
   {
     "name": "Claus Fieker",
     "role": "Honorary Research Associate",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
+    "website": "https://math.rptu.de/ags/agag/personen/leitung/fieker",
     "bio": "TODO",
-    "expertise": ["TODO"]
+    "expertise": ["Representation Theory", "Finite Groups"]
   },
   {
     "name": "Volker Gebhardt",
     "role": "Honorary Research Associate",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
+    "website": "https://researchers.westernsydney.edu.au/en/persons/volker-gebhardt/",
     "bio": "TODO",
-    "expertise": ["TODO"]
+    "expertise": ["Finite Groups"]
   },
   {
     "name": "Mark Watkins",
     "role": "Honorary Research Associate",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
+    "website": "https://www.maths.usyd.edu.au/ut/people?who=M_Watkins",
     "bio": "TODO",
     "expertise": ["TODO"]
   },
