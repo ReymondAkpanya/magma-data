@@ -19,5 +19,12 @@
       "tutorial": "abstract.md",   
       "quiz": "abstract-quiz.json",
       "section": "lecture"
+    },
+    {
+      "title": "Learning Seminar Quiz",
+      "subtitle": "How good do you know the Magma Group?",  
+      "tutorial": "basics.md",
+      "quiz": "learning-quiz.json",
+      "section": "lecture"
     }
 ]
