@@ -1,28 +1,190 @@
 {
-  "title": "Intro Quiz",
+  "title": "Basics Quiz",
   "questions": [
     {
       "id": "q1",
       "type": "multiple_choice",
-      "question": "What is Magma?",
-      "options": ["A tool", "A language", "A database"],
-      "answer": 0,
-      "explanation": "It is a tool because bla"
+      "question": "What do you type in the terminal to start Magma?",
+      "options": ["start", "magma", "run", "launch"],
+      "answer": 1,
+      "explanation": "You start Magma by typing 'magma' in your terminal and pressing the return key."
     },
     {
       "id": "q2",
-      "type": "integer",
-      "question": "How many main components does Magma have?",
-      "answer": 3,
-      "explanation": "It is lava."
+      "type": "multiple_choice",
+      "question": "What character must appear at the end of every Magma command?",
+      "options": [":", ".", ";", ","],
+      "answer": 2,
+      "explanation": "Every complete Magma command must end with a semicolon (;) before pressing return."
     },
     {
       "id": "q3",
       "type": "string",
-      "question": "Type the keyword used to initialize Magma",
-      "answer": "start",
+      "question": "What symbol does Magma display as the prompt when it is ready for input?",
+      "answer": ">",
       "caseSensitive": false,
-      "explanation": "You start Magma by typing start into your terminal."
+      "explanation": "Magma displays the > symbol on the left of the input line to indicate it is ready for a command."
+    },
+    {
+      "id": "q4",
+      "type": "integer",
+      "question": "What is the output of `2 + 4;` entered at the Magma prompt?",
+      "answer": 6,
+      "explanation": "Magma is an interactive language that evaluates the expression immediately and outputs 6."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "Is the `print` keyword required when evaluating an expression at the top level in Magma?",
+      "options": [
+        "Yes, it is always required",
+        "No, it is optional at the top level",
+        "Only required for arithmetic expressions",
+        "Only required inside functions"
+      ],
+      "answer": 1,
+      "explanation": "At the top level, the word print is optional; you can type the expression followed by a semicolon and Magma will display the result."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which operator performs integer (quotient) division in Magma?",
+      "options": ["/", "//", "div", "mod"],
+      "answer": 2,
+      "explanation": "The div operator performs integer division for elements of Euclidean rings such as integers, returning the quotient."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Which operator computes the remainder after integer division in Magma?",
+      "options": ["rem", "%", "mod", "div"],
+      "answer": 2,
+      "explanation": "The mod operator returns the remainder, for example 23 mod 4 gives 3."
+    },
+    {
+      "id": "q8",
+      "type": "integer",
+      "question": "What is the output of `23 div 4;` in Magma?",
+      "answer": 5,
+      "explanation": "23 divided by 4 gives quotient 5 with remainder 3, so 23 div 4 is 5."
+    },
+    {
+      "id": "q9",
+      "type": "integer",
+      "question": "What is the output of `23 mod 4;` in Magma?",
+      "answer": 3,
+      "explanation": "23 mod 4 computes the remainder when 23 is divided by 4, which is 3."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is the result of `2 + 4 * 9;` in Magma, following standard operator precedence?",
+      "options": ["54", "38", "36", "42"],
+      "answer": 1,
+      "explanation": "Multiplication is evaluated before addition, so 4 * 9 = 36, then 2 + 36 = 38."
+    },
+    {
+      "id": "q11",
+      "type": "integer",
+      "question": "What is the value of Factorial(5) in Magma?",
+      "answer": 120,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120. Intrinsic functions in Magma begin with a capital letter."
+    },
+    {
+      "id": "q12",
+      "type": "integer",
+      "question": "What is the output of `GCD(15130, 3162);` in Magma?",
+      "answer": 34,
+      "explanation": "GCD(15130, 3162) returns 34, the greatest common divisor of the two integers."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "How do you access online help for the keyword `div` in Magma?",
+      "options": ["help div", "?div", "/div", "#div"],
+      "answer": 1,
+      "explanation": "Typing ?div at the prompt returns a list of help entries related to div. You can then type ?n to view entry number n."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "question": "How do you quit Magma?",
+      "options": [
+        "Type quit; and press return",
+        "Type exit; and press return",
+        "Press Control-D at the beginning of a line",
+        "Type 'q' and press return"
+      ],
+      "answer": 2,
+      "explanation": "To quit Magma, press Control-D (hold the control key and type 'd') at the beginning of a line."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "What is the assignment operator in Magma?",
+      "options": ["=", "==", ":=", "->"],
+      "answer": 2,
+      "explanation": "In Magma, := is the assignment operator, meaning 'becomes' or 'has assigned to it', not mathematical equality."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "question": "How are string literals enclosed in Magma?",
+      "options": [
+        "Single quotes (')",
+        "Double quotes (\")",
+        "Backticks (`)",
+        "Square brackets ([])"
+      ],
+      "answer": 1,
+      "explanation": "Strings in Magma are enclosed in double quotation marks (\"). Such text is called a string."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "question": "Which function displays all currently defined identifiers along with their current values?",
+      "options": ["ShowIdentifiers()", "ShowValues()", "ListVars()", "PrintAll()"],
+      "answer": 1,
+      "explanation": "ShowValues() displays all currently defined identifiers and their values. ShowIdentifiers() shows only the names without values."
+    },
+    {
+      "id": "q18",
+      "type": "multiple_choice",
+      "question": "Are variable names in Magma case-sensitive?",
+      "options": [
+        "No, rqA5 and rqa5 refer to the same variable",
+        "Yes, rqA5 and rqa5 are different variables",
+        "Only for built-in intrinsic functions",
+        "Only when assigning, not when reading"
+      ],
+      "answer": 1,
+      "explanation": "Magma regards upper and lower case letters in a variable name as different, so rqA5, rqa5, and Rqa5 are all distinct variables."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "question": "What is the key difference between a set and a sequence in Magma?",
+      "options": [
+        "Sets use parentheses; sequences use square brackets",
+        "Sets are ordered and allow repetition; sequences are unordered",
+        "Sets are unordered with each element appearing at most once; sequences are ordered and allow repetition",
+        "There is no functional difference between them"
+      ],
+      "answer": 2,
+      "explanation": "A set is unordered and an element can appear at most once, while a sequence is ordered and allows repeated elements. Sets use {} and sequences use []."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "question": "Which of the following is a valid iterative statement in Magma?",
+      "options": [
+        "loop ... end loop;",
+        "do ... while Boolean expression;",
+        "repeat ... until Boolean expression;",
+        "foreach x in D do ... end foreach;"
+      ],
+      "answer": 2,
+      "explanation": "Magma supports 'repeat statements until Boolean expression;' as a loop construct, along with 'while ... do ... end while;' and 'for variable in domain do ... end for;'."
     }
   ]
 }
