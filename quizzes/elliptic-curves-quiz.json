@@ -1,0 +1,249 @@
+{
+  "title": "Elliptic Curves Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the Magma category designation for elliptic curves?",
+      "options": [
+        "CrvGen",
+        "CrvEll",
+        "SchEll",
+        "CrvAlg"
+      ],
+      "answer": 1,
+      "explanation": "All elliptic curves in Magma belong to the category CrvEll."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What is the generalised Weierstrass equation used to define an elliptic curve in Magma?",
+      "options": [
+        "y² = x³ + ax + b",
+        "y² + a1xy + a3y = x³ + a2x² + a4x + a6",
+        "y² = x³ + ax² + bx + c",
+        "y = x³ + a1x + a2"
+      ],
+      "answer": 1,
+      "explanation": "The full generalised Weierstrass form is y² + a1xy + a3y = x³ + a2x² + a4x + a6."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "When EllipticCurve([a, b]) is used with a 2-element sequence, what curve is defined?",
+      "options": [
+        "y² + ay = x³ + b",
+        "y² = x³ + ax + b",
+        "y² = x³ + ax² + b",
+        "y² + ay + b = x³"
+      ],
+      "answer": 1,
+      "explanation": "A 2-element sequence [a, b] creates the short Weierstrass curve y² = x³ + ax + b, assuming a1 = a2 = a3 = 0."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What is the type of points on an elliptic curve in Magma?",
+      "options": [
+        "CrvEllPt",
+        "PtEll",
+        "EllPt",
+        "PointCrvEll"
+      ],
+      "answer": 1,
+      "explanation": "Points on elliptic curves have type PtEll and lie in point sets of type SetPtEll."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What curve does EllipticCurveWithjInvariant(1728) return?",
+      "options": [
+        "y² + y = x³",
+        "y² = x³ + x",
+        "y² = x³ + 1",
+        "y² + xy = x³ - x"
+      ],
+      "answer": 1,
+      "explanation": "For j = 1728, Magma returns the curve y² = x³ + x."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What happens if the discriminant of the supplied Weierstrass coefficients is zero?",
+      "options": [
+        "Magma issues a warning and returns the singular curve",
+        "The construction fails because the curve must be nonsingular",
+        "Magma automatically adjusts the coefficients to make it nonsingular",
+        "A general scheme is returned instead of an elliptic curve"
+      ],
+      "answer": 1,
+      "explanation": "A nonzero discriminant is required; if the discriminant is zero the curve is singular and the construction fails."
+    },
+    {
+      "id": "q7",
+      "type": "string",
+      "question": "What Magma function tests whether a sequence of ring elements defines a valid elliptic curve?",
+      "answer": "IsEllipticCurve",
+      "caseSensitive": true,
+      "explanation": "IsEllipticCurve(s) returns true (and the curve) if the discriminant is nonzero, false otherwise."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Which function returns an isomorphic curve in simplified Weierstrass form y² = x³ + ax + b?",
+      "options": [
+        "SimplifiedModel",
+        "IntegralModel",
+        "WeierstrassModel",
+        "MinimalModel"
+      ],
+      "answer": 2,
+      "explanation": "WeierstrassModel(E) returns a simplified Weierstrass form, provided the base field does not have characteristic 2 or 3."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How does ChangeRing(E, K) differ from BaseExtend(E, K)?",
+      "options": [
+        "ChangeRing only works for finite fields",
+        "ChangeRing uses standard coercion and works even when K is not an extension of the base field",
+        "ChangeRing also returns the isomorphism between the two curves",
+        "ChangeRing only changes the base ring if the two fields are isomorphic"
+      ],
+      "answer": 1,
+      "explanation": "ChangeRing uses standard coercion, making it useful when there is no ring homomorphism (e.g. from Q to a finite field), unlike BaseExtend which requires K to extend the base field."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does MinimalModel(E) guarantee for a curve E over Q?",
+      "options": [
+        "The curve has the fewest rational points",
+        "The discriminant has minimal p-adic valuation at every prime p",
+        "The curve is in short Weierstrass form",
+        "All coefficients are non-negative"
+      ],
+      "answer": 1,
+      "explanation": "A global minimal model minimises the p-adic valuation of the discriminant simultaneously at all primes."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "What does QuadraticTwist(E) return when E is defined over a finite field?",
+      "options": [
+        "A curve isomorphic to E",
+        "A nonisomorphic curve whose trace is the negation of Trace(E)",
+        "All quadratic twists of E as a sequence",
+        "The twist of E by the characteristic of the field"
+      ],
+      "answer": 1,
+      "explanation": "Over a finite field, QuadraticTwist(E) with no second argument returns the unique nonisomorphic quadratic twist, whose trace is -Trace(E)."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What does IsTwist(E, F) test?",
+      "options": [
+        "Whether E and F are isomorphic over the base field",
+        "Whether E and F are isomorphic over some extension field (via their j-invariants)",
+        "Whether F is specifically a quadratic twist of E",
+        "Whether E and F have the same number of rational points"
+      ],
+      "answer": 1,
+      "explanation": "IsTwist only compares j-invariants; equal j-invariants mean the curves become isomorphic over an extension field."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "When creating an elliptic curve from polynomials EllipticCurve(f, h), what must be true of f?",
+      "options": [
+        "f must be monic of degree 4 and h must have degree at most 2",
+        "f must be monic of degree 3 and h must have degree at most 1",
+        "f must have degree 2 and h must have degree 3",
+        "f and h must both be monic of degree 3"
+      ],
+      "answer": 1,
+      "explanation": "f must be monic of degree 3 and h must have degree at most 1; the curve is then y² + h(x)y = f(x)."
+    },
+    {
+      "id": "q14",
+      "type": "string",
+      "question": "What Magma function returns a representative supersingular elliptic curve over a finite field K?",
+      "answer": "SupersingularEllipticCurve",
+      "caseSensitive": true,
+      "explanation": "SupersingularEllipticCurve(K) returns a representative supersingular elliptic curve over the finite field K."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "What is the Magma category for subgroup schemes of elliptic curves?",
+      "options": [
+        "CrvEll",
+        "SchGrpEll",
+        "SubSchEll",
+        "GrpSchEll"
+      ],
+      "answer": 1,
+      "explanation": "Subgroup schemes of elliptic curves belong to the category SchGrpEll."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "question": "What does BaseExtend(E, n) do when E is defined over a finite field K?",
+      "options": [
+        "Returns the base extension of E to the degree-n extension of K",
+        "Returns n independent copies of E",
+        "Performs n iterations of point doubling",
+        "Returns the n-torsion subgroup of E"
+      ],
+      "answer": 0,
+      "explanation": "BaseExtend(E, n) extends the base field to the degree-n extension of K."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "question": "In which characteristic(s) does WeierstrassModel(E) NOT apply?",
+      "options": [
+        "Characteristic 0",
+        "Characteristic 2 and 3",
+        "Characteristic 5 and 7",
+        "All finite field characteristics"
+      ],
+      "answer": 1,
+      "explanation": "A simplified Weierstrass model y² = x³ + ax + b may not exist in characteristic 2 or 3, so WeierstrassModel does not apply there."
+    },
+    {
+      "id": "q18",
+      "type": "integer",
+      "question": "How many nonisomorphic twists over GF(13) does a curve of j-invariant 0 have, according to the handbook example?",
+      "answer": 6,
+      "explanation": "The example shows Twists(E3) returns 6 curves for a j-invariant 0 curve over GF(13), due to the nontrivial automorphism group."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "question": "What does IsQuadraticTwist(E, F) return when E and F are quadratic twists of each other?",
+      "options": [
+        "true only",
+        "true and an element d such that F is isomorphic to QuadraticTwist(E, d)",
+        "true and the quadratic extension field over which they are isomorphic",
+        "true and the shared j-invariant"
+      ],
+      "answer": 1,
+      "explanation": "IsQuadraticTwist returns true together with a base-field element d witnessing the quadratic twist relationship."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "question": "If integer coefficients are supplied when constructing an elliptic curve, into which ring are they automatically coerced?",
+      "options": [
+        "Z (the integers)",
+        "Q (the rationals)",
+        "GF(2)",
+        "R (the real numbers)"
+      ],
+      "answer": 1,
+      "explanation": "Integer coefficients are coerced into Q; the base ring of an elliptic curve must be a field."
+    }
+  ]
+}

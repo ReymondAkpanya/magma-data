@@ -1,0 +1,243 @@
+{
+  "title": "Permutation Groups Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the Magma category designation for permutation groups?",
+      "options": [
+        "GrpAb",
+        "GrpPerm",
+        "GrpMat",
+        "GrpFP"
+      ],
+      "answer": 1,
+      "explanation": "All permutation groups in Magma belong to the category GrpPerm."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What does Sym(n) construct in Magma?",
+      "options": [
+        "The alternating group on n elements",
+        "The symmetric group acting on {1, 2, ..., n}",
+        "A cyclic group of order n",
+        "A random permutation group of degree n"
+      ],
+      "answer": 1,
+      "explanation": "Sym(n) creates the symmetric group acting on the natural G-set {1, 2, ..., n}."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What is the natural G-set for a permutation group G acting on X?",
+      "options": [
+        "The set of all subgroups of G",
+        "The set X on which G is defined",
+        "The set of all orbits of G",
+        "The fixed-point set of G"
+      ],
+      "answer": 1,
+      "explanation": "The set X on which G acts is called the natural G-set for G."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "How is the degree of a permutation group G defined?",
+      "options": [
+        "The order of G",
+        "The number of generators of G",
+        "The cardinality of the natural G-set of G",
+        "The number of orbits of G"
+      ],
+      "answer": 2,
+      "explanation": "The degree of G is the cardinality of its natural G-set."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is the support of a permutation g?",
+      "options": [
+        "The set of all elements of the group",
+        "The set of points fixed by g",
+        "The set of points moved by g",
+        "The orbit of g under conjugation"
+      ],
+      "answer": 2,
+      "explanation": "The support of g is the set of points that g moves, i.e. points where g(x) ≠ x."
+    },
+    {
+      "id": "q6",
+      "type": "integer",
+      "question": "What is the order of the symmetric group Sym(4)?",
+      "answer": 24,
+      "explanation": "The order of Sym(n) is n!, so Sym(4) has order 4! = 24."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Which constructor combines creating Sym(X) and defining a subgroup in one step?",
+      "options": [
+        "SubGroup<>",
+        "PermutationGroup<>",
+        "GroupOf<>",
+        "GeneratedBy<>"
+      ],
+      "answer": 1,
+      "explanation": "PermutationGroup<n|L> is shorthand for Sym(n) followed by sub<SX|L>."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What does `G!1` produce in Magma for a permutation group G?",
+      "options": [
+        "The first generator of G",
+        "The identity permutation in G",
+        "The integer 1 coerced into G",
+        "The trivial subgroup of G"
+      ],
+      "answer": 1,
+      "explanation": "G!1, Identity(G), and Id(G) all construct the identity permutation in G."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "When Sym(X) is constructed for a non-standard set X, how does Magma represent it internally?",
+      "options": [
+        "Using the original elements of X as symbolic labels",
+        "As permutations of the set {1, ..., n}",
+        "As a matrix group",
+        "As a free group on |X| generators"
+      ],
+      "answer": 1,
+      "explanation": "Magma always stores G internally as permutations of {1,...,n}; translation to and from X happens at input/output time."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What function returns the sequence of images of a permutation g over its G-set?",
+      "options": [
+        "Sequence(g)",
+        "Eltseq(g)",
+        "Images(g)",
+        "Support(g)"
+      ],
+      "answer": 1,
+      "explanation": "ElementToSequence(g) and its alias Eltseq(g) return the sequence of images of g."
+    },
+    {
+      "id": "q11",
+      "type": "string",
+      "question": "What is the short-form Magma function name for constructing the identity element of a permutation group G?",
+      "answer": "Id",
+      "caseSensitive": true,
+      "explanation": "Id(G) is the short form; the full name is Identity(G). Both return the identity permutation."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the fixed-point set of a permutation group G?",
+      "options": [
+        "The set of points moved by some element of G",
+        "The set of points fixed by every permutation in G",
+        "The set of generators of G",
+        "The largest orbit of G"
+      ],
+      "answer": 1,
+      "explanation": "The fixed-point set consists of all points that every permutation in G leaves unchanged."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "What is the upper bound on the degree of permutation groups in Magma?",
+      "options": [
+        "2^16",
+        "2^20",
+        "2^30",
+        "2^64"
+      ],
+      "answer": 2,
+      "explanation": "Permutation groups in Magma are limited to degree less than 2^30."
+    },
+    {
+      "id": "q14",
+      "type": "integer",
+      "question": "What is the order of the symmetric group Sym(10)?",
+      "answer": 3628800,
+      "explanation": "The order of Sym(10) is 10! = 3628800."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "In the constructor PermutationGroup<n | L>, what does n represent?",
+      "options": [
+        "The number of generators supplied in L",
+        "The degree of the permutation group",
+        "The order of the permutation group",
+        "The number of orbits"
+      ],
+      "answer": 1,
+      "explanation": "n is the degree; the group acts on the set {1, 2, ..., n}."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "question": "Which permutation construction is recommended when creating large permutations to avoid parse-tree overhead?",
+      "options": [
+        "G!(...)(...)",
+        "G!\\(...)(...)",
+        "elt<G | ...>",
+        "G![...]"
+      ],
+      "answer": 1,
+      "explanation": "Literal cycle notation G!\\(...) avoids building large parse trees and is recommended for large permutations."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "question": "What does StandardGroup(G) return?",
+      "options": [
+        "A group isomorphic to G acting on {1,...,n} together with the isomorphism",
+        "The standard generating set of G",
+        "The symmetric group Sym(n) containing G",
+        "G itself with elements relabelled"
+      ],
+      "answer": 0,
+      "explanation": "StandardGroup(G) returns a group H isomorphic to G but acting on {1,...,n}, and also returns the isomorphism from G to H."
+    },
+    {
+      "id": "q18",
+      "type": "string",
+      "question": "What Magma function reveals the correspondence between a custom set X and the internal set {1, ..., n} when using Sym(X)?",
+      "answer": "Labelling",
+      "caseSensitive": true,
+      "explanation": "The Labelling function exposes how elements of X are mapped to positions in {1,...,n} internally."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "question": "How many points does the permutation (2,3)(4,5,6) move?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "The permutation moves points 2, 3, 4, 5, and 6, so its degree (support size) is 5."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "question": "When constructing a permutation using `elt<G | L>` or `G!Q`, what happens if the permutation is not a member of G?",
+      "options": [
+        "The permutation is added to G as a new generator",
+        "The construction fails",
+        "Magma silently coerces it to the nearest element of G",
+        "The permutation is returned with Sym(n) as its parent instead"
+      ],
+      "answer": 1,
+      "explanation": "Membership in G is tested during construction. If the permutation does not lie in G, the construction fails."
+    }
+  ]
+}
