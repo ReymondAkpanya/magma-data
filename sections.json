@@ -14,6 +14,20 @@
       "section": "general",
     },
     {
+      "title": "Permutation Groups",
+      "subtitle": "Core concepts",
+      "tutorial": "permutation-groups.md",
+      "quiz": "permutation-groups-quiz.json",
+      "section": "general",
+    },
+    {
+      "title": "Elliptic Curves",
+      "subtitle": "Core concepts",
+      "tutorial": "elliptic-curves.md",
+      "quiz": "elliptic-curves-quiz.json",
+      "section": "general",
+    },
+    {
       "title": "Abstract and computational algebra",
       "subtitle": "TODO",
       "tutorial": "abstract.md",   
