@@ -126,5 +126,14 @@
     "website": "https://example.com",
     "bio": "TODO",
     "expertise": ["TODO"]
-  }
+  },
+  {
+    "name": "Andrew Sutherland",
+    "role": "Professor",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/andrew.png",
+    "website": "https://math.mit.edu/~drew/",
+    "bio": "I am a Senior Research Scientist in the mathematics department at MIT, 
+     focused on computational number theory and arithmetic geometry."], 
+    "expertise": ["Number Theory", "Arithmetic Geometry"]
+  },
 ]
