@@ -1,28 +1,254 @@
 {
-  "title": "Intro Quiz",
+  "title": "Introduction to MAGMA Quiz",
   "questions": [
     {
       "id": "q1",
       "type": "multiple_choice",
-      "question": "What is Magma?",
-      "options": ["A tool", "A language", "A database"],
-      "answer": 0,
-      "explanation": "TODO"
+      "question": "When was MAGMA version 1 first released?",
+      "options": [
+        "August 1985",
+        "August 1993",
+        "January 2000",
+        "March 1998"
+      ],
+      "answer": 1,
+      "explanation": "MAGMA version 1 was first released in August 1993 by Cannon and team at the University of Sydney."
     },
     {
       "id": "q2",
-      "type": "integer",
-      "question": "How many main components does Magma have?",
-      "answer": 3,
-      "explanation": "TODO"
+      "type": "multiple_choice",
+      "question": "Where was MAGMA developed?",
+      "options": [
+        "MIT",
+        "ETH Zurich",
+        "University of Sydney",
+        "Oxford University"
+      ],
+      "answer": 2,
+      "explanation": "MAGMA was developed by Cannon and team at the University of Sydney."
     },
     {
       "id": "q3",
+      "type": "multiple_choice",
+      "question": "Where does the name 'MAGMA' originate?",
+      "options": [
+        "It is an acronym for Mathematical Algebra and Geometry Machine Architecture",
+        "It comes from Bourbaki (and Serre), denoting a set with binary operations and no additional axioms",
+        "It was named after the volcanic rock as a metaphor for computational power",
+        "It comes from the Greek word for 'large'"
+      ],
+      "answer": 1,
+      "explanation": "The name comes from Bourbaki (and Serre), where a magma denotes a set with one or more binary operations without any additional axioms — the most basic algebraic structure."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "In what programming language is the core of MAGMA implemented?",
+      "options": [
+        "Fortran",
+        "Python",
+        "C",
+        "Lisp"
+      ],
+      "answer": 2,
+      "explanation": "The core of MAGMA is programmed in C, while a large part of its functionality resides in package files written in the MAGMA user language."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What type of computation does MAGMA perform?",
+      "options": [
+        "Numerical computation using floating-point arithmetic",
+        "Symbolic computation performing exact calculations",
+        "Statistical computation using probability distributions",
+        "Quantum computation using qubits"
+      ],
+      "answer": 1,
+      "explanation": "MAGMA performs exact symbolic computation, meaning mathematical expressions are manipulated exactly — output can be used in papers without loss of exactness."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What are the principal constructs in the MAGMA user language?",
+      "options": [
+        "Variables, loops, and functions",
+        "Sets, algebraic structures, and morphisms",
+        "Arrays, matrices, and polynomials",
+        "Classes, objects, and methods"
+      ],
+      "answer": 1,
+      "explanation": "The principal constructs in the MAGMA user language are set, (algebraic) structure, and morphism, reflecting the algebraic design philosophy."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does the 'Explicit Typing' feature of MAGMA mean?",
+      "options": [
+        "MAGMA infers types automatically from context",
+        "The user must explicitly define the algebraic structures in which calculations take place",
+        "MAGMA uses strong static typing enforced at compile time",
+        "Types are checked only at runtime when an error occurs"
+      ],
+      "answer": 1,
+      "explanation": "Explicit Typing means the user must explicitly define most algebraic structures before use; each object is then defined in terms of these structures."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What does MAGMA store automatically when substructures and quotient structures are created?",
+      "options": [
+        "A copy of the parent structure's generators",
+        "The natural homomorphisms that arise",
+        "The Cayley table of the quotient",
+        "The coset representatives"
+      ],
+      "answer": 1,
+      "explanation": "MAGMA's Relationships feature ensures that the natural homomorphisms arising from substructure and quotient constructions are always stored, enabling automatic coercion between parent and child structures."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "Which of the following is NOT listed as a field covered by MAGMA?",
+      "options": [
+        "Cryptography",
+        "Machine learning",
+        "Lie theory",
+        "Combinatorics and graph theory"
+      ],
+      "answer": 1,
+      "explanation": "Machine learning is not among MAGMA's covered fields. MAGMA focuses on algebra, number theory, geometry, combinatorics, and related mathematical disciplines."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "Which of the following best describes MAGMA as a programming language?",
+      "options": [
+        "Object-oriented, garbage-collected, statically typed",
+        "Imperative, call-by-value, lexically scoped, dynamically typed",
+        "Purely functional, lazy-evaluated, strongly typed",
+        "Declarative, pattern-matching, logically typed"
+      ],
+      "answer": 1,
+      "explanation": "MAGMA is an imperative, call-by-value, lexically scoped, dynamically typed programming language with an essentially functional subset."
+    },
+    {
+      "id": "q11",
+      "type": "integer",
+      "question": "What is the time limit in seconds for a single calculation in the MAGMA online calculator?",
+      "answer": 120,
+      "explanation": "The MAGMA online calculator restricts calculations to 120 seconds."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the input size limit for the MAGMA online calculator?",
+      "options": [
+        "10,000 bytes",
+        "50,000 bytes",
+        "100,000 bytes",
+        "1,000,000 bytes"
+      ],
+      "answer": 1,
+      "explanation": "Input to the MAGMA online calculator is limited to 50,000 bytes."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "How does a procedure differ from a function in MAGMA?",
+      "options": [
+        "A procedure can be recursive; a function cannot",
+        "A procedure does not return a value but may modify its arguments",
+        "A procedure is faster because it skips type checking",
+        "A procedure can only be called once per program"
+      ],
+      "answer": 1,
+      "explanation": "Unlike a function, a procedure does not return a value but may modify its arguments, provided they are declared as reference variables."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "question": "What feature of MAGMA allows calculations to span different classes of mathematical structures uniformly?",
+      "options": [
+        "Explicit Typing",
+        "Relationships",
+        "Integration",
+        "Performance"
+      ],
+      "answer": 2,
+      "explanation": "The Integration feature means facilities for each area are designed similarly using generic constructors, making it straightforward to program calculations that span different mathematical structures."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "Which of the following is an example of a database available within MAGMA?",
+      "options": [
+        "A database of known prime numbers up to 10^18",
+        "Maximal subgroups of simple groups",
+        "Known solutions to the Navier-Stokes equation",
+        "Eigenvalues of random matrices"
+      ],
+      "answer": 1,
+      "explanation": "MAGMA includes a database of maximal subgroups of simple groups, as well as others such as integral lattices, K3 surfaces, and best known linear codes."
+    },
+    {
+      "id": "q16",
       "type": "string",
-      "question": "Type the keyword used to initialize Magma",
-      "answer": "start",
+      "question": "What is the short name commonly used for the primary MAGMA reference documentation (two words)?",
+      "answer": "the handbook",
       "caseSensitive": false,
-      "explanation": "TODO"
+      "explanation": "The primary reference is the Handbook of MAGMA Functions, commonly referred to as 'the handbook'."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "question": "What does it mean that functions are 'first-class' in MAGMA?",
+      "options": [
+        "Functions are the most efficient construct in MAGMA",
+        "Functions can be assigned to variables, stored in data structures, and returned from other functions",
+        "Functions are checked before procedures at runtime",
+        "Functions must be defined before any other code in a file"
+      ],
+      "answer": 1,
+      "explanation": "First-class functions can be assigned to variables, stored in data structures, returned from other functions, and can invoke themselves recursively."
+    },
+    {
+      "id": "q18",
+      "type": "multiple_choice",
+      "question": "How is MAGMA distributed?",
+      "options": [
+        "It is completely free and open source",
+        "It is free for academic use only",
+        "On a subscription basis (non-commercial but not free)",
+        "As a one-time purchase licence"
+      ],
+      "answer": 2,
+      "explanation": "MAGMA is non-commercial but not free. It is distributed on a subscription basis to recover costs such as documentation, bug fixes, and user support."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "question": "What design philosophy underpins the MAGMA user language and system architecture?",
+      "options": [
+        "Object-oriented programming and design patterns",
+        "Universal algebra and category theory",
+        "Structured programming and modular design",
+        "Lambda calculus and type theory"
+      ],
+      "answer": 1,
+      "explanation": "The design principles of MAGMA are based on ideas from universal algebra and category theory, allowing the language to approximate mathematical modes of thought and notation."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "question": "What convenience does the MAGMA online calculator provide when pasting code from these notes?",
+      "options": [
+        "It automatically formats and highlights syntax",
+        "It can be pasted directly including the > prompt characters without removing them",
+        "It auto-completes function names from the handbook",
+        "It saves all sessions to a personal account"
+      ],
+      "answer": 1,
+      "explanation": "The online calculator conveniently accepts code with the > prompt characters included, so there is no need to remove them before pasting."
     }
   ]
 }
