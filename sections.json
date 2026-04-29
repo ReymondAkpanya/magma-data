@@ -25,20 +25,6 @@
       "subtitle": "Core concepts",
       "tutorial": "elliptic-curves.md",
       "quiz": "elliptic-curves-quiz.json",
-      "section": "general",
+      "section": "lecture",
     },
-    {
-      "title": "Abstract and computational algebra",
-      "subtitle": "TODO",
-      "tutorial": "abstract.md",   
-      "quiz": "abstract-quiz.json",
-      "section": "lecture"
-    },
-    {
-      "title": "Learning Seminar Quiz",
-      "subtitle": "How good do you know the Magma Group?",  
-      "tutorial": "basics.md",
-      "quiz": "learning-quiz.json",
-      "section": "lecture"
-    }
 ]
