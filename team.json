@@ -26,7 +26,7 @@
   {
     "name": "Stephan Elsenhans",
     "role": "Senior Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/stephan.webp",
     "website": "https://profiles.sydney.edu.au/andreas-stephan.elsenhans",
     "bio": "I am a Professor for Computer Algebra at the University of Würzburg (Germany) and a member of the computational algebra group at the University of Sydney.",
     "expertise": ["Quadratic Forms", "Global Fields", "Modules"]
@@ -34,7 +34,7 @@
   {
     "name": "Don Taylor",
     "role": "Senior Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/Don.webp",
     "website": "https://www.maths.usyd.edu.au/u/don/",
     "bio": "I am a member of the Algebra Research Group. Research interests include computations with groups, combinatorics and representation theory, particularly permutation groups and associated 'geometric' structures.",
     "expertise": ["Finite Groups", "Lie Theory"]
@@ -42,15 +42,15 @@
   {
     "name": "Bill Unger",
     "role": "Senior Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/bill.webp",
+    "website": "https://profiles.sydney.edu.au/william.unger",
     "bio": "I am a member of the Computational Algebra Research Group. My research interests include algorithms for (finite) group computations, particularly in permutation groups. I am interested in using such algorithms to help out research in other areas of mathematics. These interests extend to algorithms in Representation Theory and Combinatorics.",
     "expertise": ["Finte Groups", "Finitely presented groups"]
   },
   {
     "name": "Nicole Sutherland",
     "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/nicole.jpg",
     "website": "https://www.maths.usyd.edu.au/ut/people?who=NJ_Sutherland",
     "bio": "Computing in Mathematics, Natural Science, Engineering and Medicine Number Theory",
     "expertise": ["Global Fields", "Local Fields"]
@@ -66,7 +66,7 @@
   {
     "name": "Reymond Akpanya",
     "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/reymond.webp",
     "website": "https://reymondakpanya.github.io",
     "bio": "I am a Postdoctoral Research Associate in the School of Mathematics and Statistics at the University of Sydney, working with Prof. John Voight. Previously I completed my PhD at RWTH Aachen University under the supervision of Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.",
     "expertise": ["Combinatorics","Topology", "Finite Groups"]
@@ -74,7 +74,7 @@
   {
     "name": "Eran Assaf",
     "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/eran.jpg",
     "website": "https://math.mit.edu/~eranasaf/",
     "bio": "At the moment, I am a Research Scientist at MIT, and a Magma developer.",
     "expertise": ["Lattices", "Quadratic Forms"]
@@ -82,7 +82,7 @@
   {
     "name": "Geoff Bailey",
     "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/geoff.webp",
     "website": "https://profiles.sydney.edu.au/geoff.bailey/about",
     "bio": "Member of the Computational Algebra Research Group.",
     "expertise": ["Magma Language"]
@@ -90,7 +90,7 @@
   {
     "name": "Edgar Costa",
     "role": "Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/edgar.jpg",
     "website": "https://edgarcosta.org",
     "bio": "I am a Research Scientist in the Mathematics Department at the Massachusetts Institute of Technology.\n My research focuses on arithmetic geometry, arithmetic statistics, and number theory, with an emphasis on developing effective computational methods.",
     "expertise": ["Arithmetic Geometry","Modular Arithmetic Geometry"]
