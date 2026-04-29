@@ -2,7 +2,7 @@
   {
     "name": "John Cannon",
     "role": "Professor",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/John.webp",
     "website": "https://example.com",
     "bio": "Professor in the School of Mathematics and Statistics at the University of Sydney.",
     "expertise": ["Algebra", "Finite Groups"]
@@ -10,7 +10,7 @@
   {
     "name": "John Voight",
     "role": "Professor",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/JV.jpg",
     "website": "https://jvoight.github.io",
     "bio": "Research Interests:\n\n Arithmetic algebraic geometry: modular curves, Shimura varieties, moduli spaces, elliptic curves, modular and automorphic forms, zeta functions of varieties over finite fields, computational and algorithmic aspects\n Number theory: algebraic number theory, quaternion algebras, quadratic forms, finite-dimensional algebras, elementary number theory, cryptography, coding theory",
     "expertise": ["Quadratic Forms","Algebras", "Modular Arithmetic Geometry"]
@@ -18,7 +18,7 @@
   {
     "name": "Allan Steel",
     "role": "Senior Research Fellow",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/allan.webp",
     "website": "https://magma.maths.usyd.edu.au/~allan/",
     "bio": "I am a developer of the Magma Computer Algebra System.",
     "expertise": ["Lattices", "Modules", "Representation Theory"]
