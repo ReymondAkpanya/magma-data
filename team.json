@@ -44,7 +44,7 @@
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
     "website": "https://example.com",
-    "bio": "I am a member of the Computational Algebra Research Group. My research interests include algorithms for (finite) group computations, particularly in permutations groups. I am interested in using such algorithms to help out research in other areas of mathematics. These interests extend to algorithms in Representation Theory and Combinatorics.",
+    "bio": "I am a member of the Computational Algebra Research Group. My research interests include algorithms for (finite) group computations, particularly in permutation groups. I am interested in using such algorithms to help out research in other areas of mathematics. These interests extend to algorithms in Representation Theory and Combinatorics.",
     "expertise": ["Finte Groups", "Finitely presented groups"]
   },
   {
@@ -132,8 +132,7 @@
     "role": "Senior Research Fellow",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/andrew.png",
     "website": "https://math.mit.edu/~drew/",
-    "bio": "I am a Senior Research Scientist in the mathematics department at MIT, 
-     focused on computational number theory and arithmetic geometry.", 
+    "bio": "I am a Senior Research Scientist in the mathematics department at MIT, focused on computational number theory and arithmetic geometry.", 
     "expertise": ["Number Theory", "Arithmetic Geometry"]
   },
   {
