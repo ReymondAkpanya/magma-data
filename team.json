@@ -3,7 +3,7 @@
     "name": "John Cannon",
     "role": "Professor",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/John.webp",
-    "website": "https://example.com",
+    "website": "https://profiles.sydney.edu.au/j.cannon",
     "bio": "Professor in the School of Mathematics and Statistics at the University of Sydney.",
     "expertise": ["Algebra", "Finite Groups"]
   },
@@ -123,7 +123,7 @@
     "name": "Priscilla Yuen",
     "role": "Research Administration Officer",
     "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
-    "website": "https://example.com",
+    "website": "https://www.maths.usyd.edu.au/s/memb?id=P.Yuen-1",
     "bio": "TODO",
     "expertise": ["TODO"]
   },
@@ -146,7 +146,7 @@
   {
     "name": "Blair Butler",
     "role": "PhD Student",
-    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/blair.jpeg",
     "website": "https://www.maths.usyd.edu.au/ut/people?who=BJ_Butler",
     "bio": "PhD Student\nSchool of Mathematics and Statistics\nCarslaw Building (F07)\nUniversity of Sydney NSW 2006\nSupervisor: J Voight\nAuxiliary supervisor: K Coulembier",
     "expertise": ["Number Theory"]
