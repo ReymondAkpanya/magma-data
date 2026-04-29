@@ -142,5 +142,13 @@
     "website": "https://lewismcombes.github.io",
     "bio": "I am a Postdoctoral Fellow in Computation and Number Theory at the University of Sydney, working with John Voight and Geordie Williamson. Before that, I was a PhD student at the University of Sheffield, under the supervision of Haluk Şengün.",
     "expertise": ["Number Theory"]
+  },
+  {
+    "name": "Blair Butler",
+    "role": "PhD Student",
+    "image": "https://raw.githubusercontent.com/reymondakpanya/magma-data/main/images/applogo.png",
+    "website": "https://www.maths.usyd.edu.au/ut/people?who=BJ_Butler",
+    "bio": "PhD Student\nSchool of Mathematics and Statistics\nCarslaw Building (F07)\nUniversity of Sydney NSW 2006\nSupervisor: J Voight\nAuxiliary supervisor: K Coulembier",
+    "expertise": ["Number Theory"]
   }
 ]
